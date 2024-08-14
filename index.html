@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Trafikklys</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       
+        <div id="trafikklys">
+            <div id="rød" class="rød sirkel"></div>
+            <div id="orange" class="orange sirkel"></div>
+            <div id="grønn" class="grønn sirkel"></div>
+        </div>
+
+        <button onclick="activeLight('grønn','orange','rød', 'rød')">Rød</button>
+        <button onclick="activeLight('grønn','grønn','rød','orange')">Rød og Orange</button>
+        <button onclick="activeLight('rød','orange','grønn','grønn')">Grønn</button>
+        <button onclick="activeLight('rød','grønn','orange','orange')">Orange</button>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

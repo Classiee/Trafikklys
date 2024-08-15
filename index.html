@@ -8,18 +8,32 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-       
+    
+        <div class="container">
         <div id="trafikklys">
             <div id="rød" class="rød sirkel"></div>
             <div id="orange" class="orange sirkel"></div>
             <div id="grønn" class="grønn sirkel"></div>
         </div>
-
-        <button onclick="activeLight('grønn','orange','rød', 'rød')">Rød</button>
-        <button onclick="activeLight('grønn','grønn','rød','orange')">Rød og Orange</button>
-        <button onclick="activeLight('rød','orange','grønn','grønn')">Grønn</button>
-        <button onclick="activeLight('rød','grønn','orange','orange')">Orange</button>
         
-        <script src="" async defer></script>
+        </div>
+
+        <div id="divId1">
+        <button onclick="activeLight('grønn','orange','rød', 'rød')">Rød</button>
+        </div>
+
+        <div id="divId2">
+        <button onclick="activeLight('grønn','grønn','rød','orange')">Rød og Orange</button>
+        </div>
+    
+        <div id="divId4">
+        <button onclick="activeLight('rød','grønn','orange','orange')">Orange</button>
+        </div>
+
+        <div id="divId3">
+            <button onclick="activeLight('rød','orange','grønn','grønn')">Grønn</button>
+        </div>
+
+        <script src="index.js" async defer></script>
     </body>
 </html>
